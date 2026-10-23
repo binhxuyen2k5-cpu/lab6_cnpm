@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  Lab06 Selenium</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Lab06 Selenium</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 23 18:38:22 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>78 seconds (78015 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai4_UploadFileTest.taiTepLenForm()'><b>taiTepLenForm</b><br>Test class: vn.edu.vhu.tests.Bai4_UploadFileTest</td>
+<td></td>
+<td>3</td>
+<td>vn.edu.vhu.tests.Bai4_UploadFileTest@399f45b1</td></tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu()'><b>submitFormVoiNhieuBoDuLieu</b><br>Test class: vn.edu.vhu.tests.Bai7_DataDrivenTest<br>Parameters: Binh Tran Thi | binh.tran@example.com | Other | 0987654321 | 28 Dec 2001 | Physics | Music | avatar.png | 78 Hai Ba Trung, Quan 3, TP.HCM | Haryana Karnal</td>
+<td></td>
+<td>5</td>
+<td>vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc</td></tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu()'><b>submitFormVoiNhieuBoDuLieu</b><br>Test class: vn.edu.vhu.tests.Bai7_DataDrivenTest<br>Parameters: Xuyen Thai Binh | xuyen.thai@example.com | Male | 0901234567 | 15 May 2003 | Maths | Sports | avatar.png | 123 Nguyen Van Linh, Quan 7, TP.HCM | NCR Delhi</td>
+<td></td>
+<td>4</td>
+<td>vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc</td></tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai8_FullFlowTest.quyTrinhHoanChinhCuaForm()'><b>quyTrinhHoanChinhCuaForm</b><br>Test class: vn.edu.vhu.tests.Bai8_FullFlowTest</td>
+<td></td>
+<td>35</td>
+<td>vn.edu.vhu.tests.Bai8_FullFlowTest@79e2c065</td></tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu()'><b>submitFormVoiNhieuBoDuLieu</b><br>Test class: vn.edu.vhu.tests.Bai7_DataDrivenTest<br>Parameters: An Nguyen Van | an.nguyen@example.com | Female | 0912345678 | 03 Jan 2002 | English | Reading | sample.txt | 45 Le Loi, Quan 1, TP.HCM | Uttar Pradesh Agra</td>
+<td></td>
+<td>5</td>
+<td>vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc</td></tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai2_PersonalInfoTest.dienThongTinCaNhan()'><b>dienThongTinCaNhan</b><br>Test class: vn.edu.vhu.tests.Bai2_PersonalInfoTest</td>
+<td></td>
+<td>3</td>
+<td>vn.edu.vhu.tests.Bai2_PersonalInfoTest@72d1ad2e</td></tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai5_SubmitConfirmTest.kiemTraModalSauKhiSubmit()'><b>kiemTraModalSauKhiSubmit</b><br>Test class: vn.edu.vhu.tests.Bai5_SubmitConfirmTest</td>
+<td></td>
+<td>5</td>
+<td>vn.edu.vhu.tests.Bai5_SubmitConfirmTest@38c6f217</td></tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai1_OpenPageTest.moTrangVaKiemTraTieuDe()'><b>moTrangVaKiemTraTieuDe</b><br>Test class: vn.edu.vhu.tests.Bai1_OpenPageTest</td>
+<td></td>
+<td>3</td>
+<td>vn.edu.vhu.tests.Bai1_OpenPageTest@441772e</td></tr>
+<tr>
+<td title='vn.edu.vhu.tests.Bai3_DatePickerTest.chonNgaySinhBangDatePicker()'><b>chonNgaySinhBangDatePicker</b><br>Test class: vn.edu.vhu.tests.Bai3_DatePickerTest</td>
+<td></td>
+<td>3</td>
+<td>vn.edu.vhu.tests.Bai3_DatePickerTest@2d7275fc</td></tr>
+</table><p>
+</body>
+</html>

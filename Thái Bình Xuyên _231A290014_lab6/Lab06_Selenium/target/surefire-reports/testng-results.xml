@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-23T18:38:22 ICT" name="Lab06 - DemoQA Practice Form" finished-at="2026-10-23T18:39:40 ICT" duration-ms="78015">
+    <groups>
+    </groups>
+    <test started-at="2026-10-23T18:38:22 ICT" name="Lab06 Selenium" finished-at="2026-10-23T18:39:40 ICT" duration-ms="78015">
+      <class name="vn.edu.vhu.tests.Bai7_DataDrivenTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:38:45 ICT" name="setUp" finished-at="2026-10-23T18:38:46 ICT" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:38:46 ICT" name="submitFormVoiNhieuBoDuLieu" data-provider="students" finished-at="2026-10-23T18:38:51 ICT" duration-ms="4664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Xuyen Thai Binh | xuyen.thai@example.com | Male | 0901234567 | 15 May 2003 | Maths | Sports | avatar.png | 123 Nguyen Van Linh, Quan 7, TP.HCM | NCR Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormVoiNhieuBoDuLieu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:38:51 ICT" name="tearDown" finished-at="2026-10-23T18:38:51 ICT" duration-ms="341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitFormVoiNhieuBoDuLieu status=SUCCESS method=Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:38:51 ICT" name="setUp" finished-at="2026-10-23T18:38:51 ICT" duration-ms="503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:38:51 ICT" name="submitFormVoiNhieuBoDuLieu" data-provider="students" finished-at="2026-10-23T18:38:57 ICT" duration-ms="5833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[An Nguyen Van | an.nguyen@example.com | Female | 0912345678 | 03 Jan 2002 | English | Reading | sample.txt | 45 Le Loi, Quan 1, TP.HCM | Uttar Pradesh Agra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormVoiNhieuBoDuLieu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:38:57 ICT" name="tearDown" finished-at="2026-10-23T18:38:57 ICT" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitFormVoiNhieuBoDuLieu status=SUCCESS method=Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:38:57 ICT" name="setUp" finished-at="2026-10-23T18:38:58 ICT" duration-ms="426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:38:58 ICT" name="submitFormVoiNhieuBoDuLieu" data-provider="students" finished-at="2026-10-23T18:39:03 ICT" duration-ms="5154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Binh Tran Thi | binh.tran@example.com | Other | 0987654321 | 28 Dec 2001 | Physics | Music | avatar.png | 78 Hai Ba Trung, Quan 3, TP.HCM | Haryana Karnal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormVoiNhieuBoDuLieu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc]" started-at="2026-10-23T18:39:03 ICT" name="tearDown" finished-at="2026-10-23T18:39:03 ICT" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitFormVoiNhieuBoDuLieu status=SUCCESS method=Bai7_DataDrivenTest.submitFormVoiNhieuBoDuLieu(vn.edu.vhu.data.StudentData)[pri:0, instance:vn.edu.vhu.tests.Bai7_DataDrivenTest@478190fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vn.edu.vhu.tests.Bai7_DataDrivenTest -->
+      <class name="vn.edu.vhu.tests.Bai3_DatePickerTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai3_DatePickerTest@2d7275fc]" started-at="2026-10-23T18:38:31 ICT" name="setUp" finished-at="2026-10-23T18:38:31 ICT" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai3_DatePickerTest.chonNgaySinhBangDatePicker()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chonNgaySinhBangDatePicker()[pri:0, instance:vn.edu.vhu.tests.Bai3_DatePickerTest@2d7275fc]" started-at="2026-10-23T18:38:31 ICT" name="chonNgaySinhBangDatePicker" finished-at="2026-10-23T18:38:35 ICT" duration-ms="3831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chonNgaySinhBangDatePicker -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai3_DatePickerTest@2d7275fc]" started-at="2026-10-23T18:38:35 ICT" name="tearDown" finished-at="2026-10-23T18:38:35 ICT" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chonNgaySinhBangDatePicker status=SUCCESS method=Bai3_DatePickerTest.chonNgaySinhBangDatePicker()[pri:0, instance:vn.edu.vhu.tests.Bai3_DatePickerTest@2d7275fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vn.edu.vhu.tests.Bai3_DatePickerTest -->
+      <class name="vn.edu.vhu.tests.Bai2_PersonalInfoTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai2_PersonalInfoTest@72d1ad2e]" started-at="2026-10-23T18:38:26 ICT" name="setUp" finished-at="2026-10-23T18:38:27 ICT" duration-ms="470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai2_PersonalInfoTest.dienThongTinCaNhan()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dienThongTinCaNhan()[pri:0, instance:vn.edu.vhu.tests.Bai2_PersonalInfoTest@72d1ad2e]" started-at="2026-10-23T18:38:27 ICT" name="dienThongTinCaNhan" finished-at="2026-10-23T18:38:30 ICT" duration-ms="3757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dienThongTinCaNhan -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai2_PersonalInfoTest@72d1ad2e]" started-at="2026-10-23T18:38:30 ICT" name="tearDown" finished-at="2026-10-23T18:38:31 ICT" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dienThongTinCaNhan status=SUCCESS method=Bai2_PersonalInfoTest.dienThongTinCaNhan()[pri:0, instance:vn.edu.vhu.tests.Bai2_PersonalInfoTest@72d1ad2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vn.edu.vhu.tests.Bai2_PersonalInfoTest -->
+      <class name="vn.edu.vhu.tests.Bai5_SubmitConfirmTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai5_SubmitConfirmTest@38c6f217]" started-at="2026-10-23T18:38:39 ICT" name="setUp" finished-at="2026-10-23T18:38:40 ICT" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai5_SubmitConfirmTest.kiemTraModalSauKhiSubmit()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="kiemTraModalSauKhiSubmit()[pri:0, instance:vn.edu.vhu.tests.Bai5_SubmitConfirmTest@38c6f217]" started-at="2026-10-23T18:38:40 ICT" name="kiemTraModalSauKhiSubmit" finished-at="2026-10-23T18:38:45 ICT" duration-ms="5265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemTraModalSauKhiSubmit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai5_SubmitConfirmTest@38c6f217]" started-at="2026-10-23T18:38:45 ICT" name="tearDown" finished-at="2026-10-23T18:38:45 ICT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kiemTraModalSauKhiSubmit status=SUCCESS method=Bai5_SubmitConfirmTest.kiemTraModalSauKhiSubmit()[pri:0, instance:vn.edu.vhu.tests.Bai5_SubmitConfirmTest@38c6f217] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vn.edu.vhu.tests.Bai5_SubmitConfirmTest -->
+      <class name="vn.edu.vhu.tests.Bai8_FullFlowTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai8_FullFlowTest@79e2c065]" started-at="2026-10-23T18:39:03 ICT" name="setUp" finished-at="2026-10-23T18:39:04 ICT" duration-ms="457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai8_FullFlowTest.quyTrinhHoanChinhCuaForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="quyTrinhHoanChinhCuaForm()[pri:0, instance:vn.edu.vhu.tests.Bai8_FullFlowTest@79e2c065]" started-at="2026-10-23T18:39:04 ICT" name="quyTrinhHoanChinhCuaForm" finished-at="2026-10-23T18:39:39 ICT" duration-ms="35504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quyTrinhHoanChinhCuaForm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai8_FullFlowTest@79e2c065]" started-at="2026-10-23T18:39:39 ICT" name="tearDown" finished-at="2026-10-23T18:39:40 ICT" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=quyTrinhHoanChinhCuaForm status=SUCCESS method=Bai8_FullFlowTest.quyTrinhHoanChinhCuaForm()[pri:0, instance:vn.edu.vhu.tests.Bai8_FullFlowTest@79e2c065] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vn.edu.vhu.tests.Bai8_FullFlowTest -->
+      <class name="vn.edu.vhu.tests.Bai1_OpenPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai1_OpenPageTest@441772e]" started-at="2026-10-23T18:38:22 ICT" name="setUp" finished-at="2026-10-23T18:38:22 ICT" duration-ms="791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai1_OpenPageTest.moTrangVaKiemTraTieuDe()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="moTrangVaKiemTraTieuDe()[pri:0, instance:vn.edu.vhu.tests.Bai1_OpenPageTest@441772e]" started-at="2026-10-23T18:38:22 ICT" name="moTrangVaKiemTraTieuDe" finished-at="2026-10-23T18:38:26 ICT" duration-ms="3544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moTrangVaKiemTraTieuDe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai1_OpenPageTest@441772e]" started-at="2026-10-23T18:38:26 ICT" name="tearDown" finished-at="2026-10-23T18:38:26 ICT" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=moTrangVaKiemTraTieuDe status=SUCCESS method=Bai1_OpenPageTest.moTrangVaKiemTraTieuDe()[pri:0, instance:vn.edu.vhu.tests.Bai1_OpenPageTest@441772e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vn.edu.vhu.tests.Bai1_OpenPageTest -->
+      <class name="vn.edu.vhu.tests.Bai4_UploadFileTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:vn.edu.vhu.tests.Bai4_UploadFileTest@399f45b1]" started-at="2026-10-23T18:38:35 ICT" name="setUp" finished-at="2026-10-23T18:38:36 ICT" duration-ms="443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vn.edu.vhu.tests.Bai4_UploadFileTest.taiTepLenForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="taiTepLenForm()[pri:0, instance:vn.edu.vhu.tests.Bai4_UploadFileTest@399f45b1]" started-at="2026-10-23T18:38:36 ICT" name="taiTepLenForm" finished-at="2026-10-23T18:38:39 ICT" duration-ms="3343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taiTepLenForm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:vn.edu.vhu.tests.Bai4_UploadFileTest@399f45b1]" started-at="2026-10-23T18:38:39 ICT" name="tearDown" finished-at="2026-10-23T18:38:39 ICT" duration-ms="486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=taiTepLenForm status=SUCCESS method=Bai4_UploadFileTest.taiTepLenForm()[pri:0, instance:vn.edu.vhu.tests.Bai4_UploadFileTest@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vn.edu.vhu.tests.Bai4_UploadFileTest -->
+    </test> <!-- Lab06 Selenium -->
+  </suite> <!-- Lab06 - DemoQA Practice Form -->
+</testng-results>

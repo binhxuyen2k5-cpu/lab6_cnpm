@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="78.288" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\Downloads\Thái Bình Xuyên _231A290014_lab6\Lab06_Selenium\target\test-classes;C:\Users\Admin\Downloads\Thái Bình Xuyên _231A290014_lab6\Lab06_Selenium\target\classes;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\Admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260826-1216\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire3565756195937113804\surefirebooter-20261023183821587_3.jar C:\Users\Admin\AppData\Local\Temp\surefire3565756195937113804 2026-10-23T18-38-21_518-jvmRun1 surefire-20261023183821587_1tmp surefire_0-20261023183821587_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\Downloads\Thái Bình Xuyên _231A290014_lab6\Lab06_Selenium\target\test-classes;C:\Users\Admin\Downloads\Thái Bình Xuyên _231A290014_lab6\Lab06_Selenium\target\classes;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\Admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260826-1216\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\Downloads\Thái Bình Xuyên _231A290014_lab6\Lab06_Selenium"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire3565756195937113804\surefirebooter-20261023183821587_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.12.1+1-LTS"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.12.1+1"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.12.1"/>
+    <property name="user.dir" value="C:\Users\Admin\Downloads\Thái Bình Xuyên _231A290014_lab6\Lab06_Selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260826-1216\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260826-1216/jre/bin/server;C:/Users/Admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260826-1216/jre/bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\.dotnet\tools;C:\Windows\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.12.1+1-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="moTrangVaKiemTraTieuDe" classname="vn.edu.vhu.tests.Bai1_OpenPageTest" time="3.545">
+    <system-out><![CDATA[
+===== BẮT ĐẦU: moTrangVaKiemTraTieuDe =====
+URL hiện tại : https://demoqa.com/automation-practice-form
+Tiêu đề trang: demosite
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 23, 2026 6:38:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:38:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="dienThongTinCaNhan" classname="vn.edu.vhu.tests.Bai2_PersonalInfoTest" time="3.757">
+    <system-out><![CDATA[[Screenshot] Đã lưu: screenshots\PASS_moTrangVaKiemTraTieuDe_20261023_183826.png
+===== KẾT THÚC: moTrangVaKiemTraTieuDe -> PASS =====
+
+===== BẮT ĐẦU: dienThongTinCaNhan =====
+Tên (First Name): Xuyen
+Họ (Last Name)  : Thai Binh
+Email           : xuyen.thai@example.com
+Số điện thoại   : 0901234567
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2026 6:38:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:38:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="chonNgaySinhBangDatePicker" classname="vn.edu.vhu.tests.Bai3_DatePickerTest" time="3.83">
+    <system-out><![CDATA[[Screenshot] Đã lưu: screenshots\PASS_dienThongTinCaNhan_20261023_183830.png
+===== KẾT THÚC: dienThongTinCaNhan -> PASS =====
+
+===== BẮT ĐẦU: chonNgaySinhBangDatePicker =====
+Ngày sinh đã chọn : 15 May 2003
+Giá trị hiển thị  : 15 May 2003
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2026 6:38:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:38:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="taiTepLenForm" classname="vn.edu.vhu.tests.Bai4_UploadFileTest" time="3.343">
+    <system-out><![CDATA[[Screenshot] Đã lưu: screenshots\PASS_chonNgaySinhBangDatePicker_20261023_183835.png
+===== KẾT THÚC: chonNgaySinhBangDatePicker -> PASS =====
+
+===== BẮT ĐẦU: taiTepLenForm =====
+Đường dẫn đã gửi : C:\Users\Admin\Downloads\Thái Bình Xuyên _231A290014_lab6\Lab06_Selenium\src\test\resources\upload\avatar.png
+Giá trị ô upload : C:\fakepath\avatar.png
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2026 6:38:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:38:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="kiemTraModalSauKhiSubmit" classname="vn.edu.vhu.tests.Bai5_SubmitConfirmTest" time="5.266">
+    <system-out><![CDATA[[Screenshot] Đã lưu: screenshots\PASS_taiTepLenForm_20261023_183839.png
+===== KẾT THÚC: taiTepLenForm -> PASS =====
+
+===== BẮT ĐẦU: kiemTraModalSauKhiSubmit =====
+Tiêu đề modal: Thanks for submitting the form
+[Kiểm tra] Student Name: nhập 'Xuyen Thai Binh' | modal 'Xuyen Thai Binh' -> ĐÚNG
+[Kiểm tra] Student Email: nhập 'xuyen.thai@example.com' | modal 'xuyen.thai@example.com' -> ĐÚNG
+[Kiểm tra] Gender: nhập 'Male' | modal 'Male' -> ĐÚNG
+[Kiểm tra] Mobile: nhập '0901234567' | modal '0901234567' -> ĐÚNG
+[Kiểm tra] Date of Birth: nhập '15 May 2003' | modal '15 May 2003' -> ĐÚNG
+[Kiểm tra] Subjects: nhập 'Maths' | modal 'Maths' -> ĐÚNG
+[Kiểm tra] Hobbies: nhập 'Sports' | modal 'Sports' -> ĐÚNG
+[Kiểm tra] Picture: nhập 'avatar.png' | modal 'avatar.png' -> ĐÚNG
+[Kiểm tra] Address: nhập '123 Nguyen Van Linh, Quan 7, TP.HCM' | modal '123 Nguyen Van Linh, Quan 7, TP.HCM' -> ĐÚNG
+[Kiểm tra] State and City: nhập 'NCR Delhi' | modal 'NCR Delhi' -> ĐÚNG
+KẾT QUẢ: nội dung xác nhận khớp với dữ liệu đã nhập.
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2026 6:38:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:38:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="submitFormVoiNhieuBoDuLieu[Xuyen Thai Binh | xuyen.thai@example.com | Male | 0901234567 | 15 May 2003 | Maths | Sports | avatar.png | 123 Nguyen Van Linh, Quan 7, TP.HCM | NCR Delhi](1)" classname="vn.edu.vhu.tests.Bai7_DataDrivenTest" time="4.662">
+    <system-out><![CDATA[[Screenshot] Đã lưu: screenshots\PASS_kiemTraModalSauKhiSubmit_20261023_183845.png
+===== KẾT THÚC: kiemTraModalSauKhiSubmit -> PASS =====
+
+===== BẮT ĐẦU: submitFormVoiNhieuBoDuLieu =====
+>>> Bộ dữ liệu: Xuyen Thai Binh | xuyen.thai@example.com | Male | 0901234567 | 15 May 2003 | Maths | Sports | avatar.png | 123 Nguyen Van Linh, Quan 7, TP.HCM | NCR Delhi
+[Kiểm tra] Student Name: nhập 'Xuyen Thai Binh' | modal 'Xuyen Thai Binh' -> ĐÚNG
+[Kiểm tra] Student Email: nhập 'xuyen.thai@example.com' | modal 'xuyen.thai@example.com' -> ĐÚNG
+[Kiểm tra] Gender: nhập 'Male' | modal 'Male' -> ĐÚNG
+[Kiểm tra] Mobile: nhập '0901234567' | modal '0901234567' -> ĐÚNG
+[Kiểm tra] Date of Birth: nhập '15 May 2003' | modal '15 May 2003' -> ĐÚNG
+[Kiểm tra] Subjects: nhập 'Maths' | modal 'Maths' -> ĐÚNG
+[Kiểm tra] Hobbies: nhập 'Sports' | modal 'Sports' -> ĐÚNG
+[Kiểm tra] Picture: nhập 'avatar.png' | modal 'avatar.png' -> ĐÚNG
+[Kiểm tra] Address: nhập '123 Nguyen Van Linh, Quan 7, TP.HCM' | modal '123 Nguyen Van Linh, Quan 7, TP.HCM' -> ĐÚNG
+[Kiểm tra] State and City: nhập 'NCR Delhi' | modal 'NCR Delhi' -> ĐÚNG
+>>> KẾT QUẢ bộ dữ liệu [Xuyen Thai Binh]: PASS
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2026 6:38:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:38:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="submitFormVoiNhieuBoDuLieu[An Nguyen Van | an.nguyen@example.com | Female | 0912345678 | 03 Jan 2002 | English | Reading | sample.txt | 45 Le Loi, Quan 1, TP.HCM | Uttar Pradesh Agra](2)" classname="vn.edu.vhu.tests.Bai7_DataDrivenTest" time="5.833">
+    <system-out><![CDATA[[Screenshot] Đã lưu: screenshots\PASS_submitFormVoiNhieuBoDuLieu_20261023_183851.png
+===== KẾT THÚC: submitFormVoiNhieuBoDuLieu -> PASS =====
+
+===== BẮT ĐẦU: submitFormVoiNhieuBoDuLieu =====
+>>> Bộ dữ liệu: An Nguyen Van | an.nguyen@example.com | Female | 0912345678 | 03 Jan 2002 | English | Reading | sample.txt | 45 Le Loi, Quan 1, TP.HCM | Uttar Pradesh Agra
+[Kiểm tra] Student Name: nhập 'An Nguyen Van' | modal 'An Nguyen Van' -> ĐÚNG
+[Kiểm tra] Student Email: nhập 'an.nguyen@example.com' | modal 'an.nguyen@example.com' -> ĐÚNG
+[Kiểm tra] Gender: nhập 'Female' | modal 'Female' -> ĐÚNG
+[Kiểm tra] Mobile: nhập '0912345678' | modal '0912345678' -> ĐÚNG
+[Kiểm tra] Date of Birth: nhập '03 Jan 2002' | modal '03 January 2002' -> ĐÚNG
+[Kiểm tra] Subjects: nhập 'English' | modal 'English' -> ĐÚNG
+[Kiểm tra] Hobbies: nhập 'Reading' | modal 'Reading' -> ĐÚNG
+[Kiểm tra] Picture: nhập 'sample.txt' | modal 'sample.txt' -> ĐÚNG
+[Kiểm tra] Address: nhập '45 Le Loi, Quan 1, TP.HCM' | modal '45 Le Loi, Quan 1, TP.HCM' -> ĐÚNG
+[Kiểm tra] State and City: nhập 'Uttar Pradesh Agra' | modal 'Uttar Pradesh Agra' -> ĐÚNG
+>>> KẾT QUẢ bộ dữ liệu [An Nguyen Van]: PASS
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2026 6:38:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:38:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="submitFormVoiNhieuBoDuLieu[Binh Tran Thi | binh.tran@example.com | Other | 0987654321 | 28 Dec 2001 | Physics | Music | avatar.png | 78 Hai Ba Trung, Quan 3, TP.HCM | Haryana Karnal](3)" classname="vn.edu.vhu.tests.Bai7_DataDrivenTest" time="5.153">
+    <system-out><![CDATA[[Screenshot] Đã lưu: screenshots\PASS_submitFormVoiNhieuBoDuLieu_20261023_183857.png
+===== KẾT THÚC: submitFormVoiNhieuBoDuLieu -> PASS =====
+
+===== BẮT ĐẦU: submitFormVoiNhieuBoDuLieu =====
+>>> Bộ dữ liệu: Binh Tran Thi | binh.tran@example.com | Other | 0987654321 | 28 Dec 2001 | Physics | Music | avatar.png | 78 Hai Ba Trung, Quan 3, TP.HCM | Haryana Karnal
+[Kiểm tra] Student Name: nhập 'Binh Tran Thi' | modal 'Binh Tran Thi' -> ĐÚNG
+[Kiểm tra] Student Email: nhập 'binh.tran@example.com' | modal 'binh.tran@example.com' -> ĐÚNG
+[Kiểm tra] Gender: nhập 'Other' | modal 'Other' -> ĐÚNG
+[Kiểm tra] Mobile: nhập '0987654321' | modal '0987654321' -> ĐÚNG
+[Kiểm tra] Date of Birth: nhập '28 Dec 2001' | modal '28 December 2001' -> ĐÚNG
+[Kiểm tra] Subjects: nhập 'Physics' | modal 'Physics' -> ĐÚNG
+[Kiểm tra] Hobbies: nhập 'Music' | modal 'Music' -> ĐÚNG
+[Kiểm tra] Picture: nhập 'avatar.png' | modal 'avatar.png' -> ĐÚNG
+[Kiểm tra] Address: nhập '78 Hai Ba Trung, Quan 3, TP.HCM' | modal '78 Hai Ba Trung, Quan 3, TP.HCM' -> ĐÚNG
+[Kiểm tra] State and City: nhập 'Haryana Karnal' | modal 'Haryana Karnal' -> ĐÚNG
+>>> KẾT QUẢ bộ dữ liệu [Binh Tran Thi]: PASS
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2026 6:38:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:38:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="quyTrinhHoanChinhCuaForm" classname="vn.edu.vhu.tests.Bai8_FullFlowTest" time="35.504">
+    <system-out><![CDATA[[Screenshot] Đã lưu: screenshots\PASS_submitFormVoiNhieuBoDuLieu_20261023_183903.png
+===== KẾT THÚC: submitFormVoiNhieuBoDuLieu -> PASS =====
+
+===== BẮT ĐẦU: quyTrinhHoanChinhCuaForm =====
+Bước 1: Mở trang
+Bước 2: Nhập thông tin, chọn giới tính/ngày sinh/môn học/sở thích, upload file, chọn State & City
+Bước 3: Chụp màn hình TRƯỚC khi submit
+[Screenshot] Đã lưu: screenshots\TRUOC_submit_20261023_183908.png
+Bước 4: Submit và chờ modal xác nhận
+Bước 5: Chụp màn hình SAU khi submit
+[Screenshot] Đã lưu: screenshots\SAU_submit_20261023_183909.png
+Bước 6: Kiểm tra nội dung modal
+Tiêu đề modal: Thanks for submitting the form
+[Kiểm tra] Student Name: nhập 'Xuyen Thai Binh' | modal 'Xuyen Thai Binh' -> ĐÚNG
+[Kiểm tra] Student Email: nhập 'xuyen.thai@example.com' | modal 'xuyen.thai@example.com' -> ĐÚNG
+[Kiểm tra] Gender: nhập 'Male' | modal 'Male' -> ĐÚNG
+[Kiểm tra] Mobile: nhập '0901234567' | modal '0901234567' -> ĐÚNG
+[Kiểm tra] Date of Birth: nhập '15 May 2003' | modal '15 May 2003' -> ĐÚNG
+[Kiểm tra] Subjects: nhập 'Maths' | modal 'Maths' -> ĐÚNG
+[Kiểm tra] Hobbies: nhập 'Sports' | modal 'Sports' -> ĐÚNG
+[Kiểm tra] Picture: nhập 'avatar.png' | modal 'avatar.png' -> ĐÚNG
+[Kiểm tra] Address: nhập '123 Nguyen Van Linh, Quan 7, TP.HCM' | modal '123 Nguyen Van Linh, Quan 7, TP.HCM' -> ĐÚNG
+[Kiểm tra] State and City: nhập 'NCR Delhi' | modal 'NCR Delhi' -> ĐÚNG
+KẾT QUẢ: Quy trình hoàn chỉnh PASS
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2026 6:39:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 23, 2026 6:39:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 156.0.8078.47. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

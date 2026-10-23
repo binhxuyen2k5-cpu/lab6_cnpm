@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lab06 - DemoQA Practice Form" verbose="1">
+    <test name="Lab06 Selenium">
+        <classes>
+            <class name="vn.edu.vhu.tests.Bai1_OpenPageTest"/>
+            <class name="vn.edu.vhu.tests.Bai2_PersonalInfoTest"/>
+            <class name="vn.edu.vhu.tests.Bai3_DatePickerTest"/>
+            <class name="vn.edu.vhu.tests.Bai4_UploadFileTest"/>
+            <class name="vn.edu.vhu.tests.Bai5_SubmitConfirmTest"/>
+            <class name="vn.edu.vhu.tests.Bai7_DataDrivenTest"/>
+            <class name="vn.edu.vhu.tests.Bai8_FullFlowTest"/>
+        </classes>
+    </test>
+</suite>

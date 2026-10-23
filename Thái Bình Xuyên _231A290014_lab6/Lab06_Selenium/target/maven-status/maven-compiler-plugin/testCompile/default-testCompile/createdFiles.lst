@@ -1,0 +1,12 @@
+vn\edu\vhu\data\StudentData.class
+vn\edu\vhu\tests\Bai4_UploadFileTest.class
+vn\edu\vhu\base\BaseTest.class
+vn\edu\vhu\tests\Bai2_PersonalInfoTest.class
+vn\edu\vhu\tests\Bai1_OpenPageTest.class
+vn\edu\vhu\tests\Bai8_FullFlowTest.class
+vn\edu\vhu\utils\ScreenshotUtil.class
+vn\edu\vhu\tests\Bai7_DataDrivenTest.class
+vn\edu\vhu\data\TestData.class
+vn\edu\vhu\tests\Bai3_DatePickerTest.class
+vn\edu\vhu\tests\Bai5_SubmitConfirmTest.class
+vn\edu\vhu\pages\PracticeFormPage.class
